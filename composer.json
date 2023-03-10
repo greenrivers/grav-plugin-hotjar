@@ -1,0 +1,40 @@
+{
+    "name": "greenrivers/hotjar",
+    "type": "grav-plugin",
+    "description": "Hotjar integration",
+    "keywords": [
+        "plugin",
+        "hotjar",
+        "integration",
+        "heatmaps"
+    ],
+    "homepage": "https://github.com/greenrivers/grav-plugin-hotjar",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Greenrivers",
+            "homepage": "https://greenrivers.pl",
+            "email": "kontakt@greenrivers.pl",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.3"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    },
+    "autoload": {
+        "psr-4": {
+            "Grav\\Plugin\\Hotjar\\": "classes/"
+        },
+        "classmap": [
+            "hotjar.php"
+        ]
+    },
+    "config": {
+        "platform": {
+            "php": "7.1.3"
+        }
+    }
+}

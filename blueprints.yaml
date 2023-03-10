@@ -1,0 +1,47 @@
+name: Hotjar
+slug: hotjar
+type: plugin
+version: 1.0.0
+description: Hotjar integration
+icon: code
+author:
+  name: Greenrivers
+  email: kontakt@greenrivers.pl
+  url: https://greenrivers.pl/en/
+homepage: https://github.com/greenrivers/grav-plugin-hotjar
+keywords: hotjar, integration, heatmaps, plugin, admin
+bugs: https://github.com/greenrivers/grav-plugin-hotjar/issues
+docs: https://github.com/greenrivers/grav-plugin-hotjar/blob/develop/README.md
+license: MIT
+
+dependencies:
+  - { name: grav, version: '>=1.6.0' }
+
+form:
+  validation: loose
+  fields:
+    enabled:
+      label: PLUGIN_ADMIN.PLUGIN_STATUS
+      type: toggle
+      outerclasses: conditional condition
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+    hjid:
+      label: PLUGIN_HOTJAR.HOTJAR_ID_FIELD_LABEL
+      help: PLUGIN_HOTJAR.HOTJAR_ID_FIELD_HELP
+      type: text
+      validate:
+        type: number
+      outerclasses: conditional option option-1
+    hjsv:
+      label: PLUGIN_HOTJAR.HOTJAR_SNIPPET_VERSION_FIELD_LABEL
+      help: PLUGIN_HOTJAR.HOTJAR_SNIPPET_VERSION_FIELD_HELP
+      type: text
+      default: 6
+      disabled: true
+      outerclasses: conditional option option-1
