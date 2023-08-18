@@ -4,6 +4,12 @@ en:
     HOTJAR_ID_FIELD_HELP: 'Tells Hotjar which site settings it should load and where it should save the data collected by using the hjid (Hotjar ID).'
     HOTJAR_SNIPPET_VERSION_FIELD_LABEL: 'Hotjar snippet version'
     HOTJAR_SNIPPET_VERSION_FIELD_HELP: 'Keeps track of the version of the Tracking Code you are using with hjsv (Hotjar Snippet Version). This is only needed if Hotjar ever updates the Tracking Code and needs to discontinue older ones. Knowing which version your site includes allows Hotjar team to contact you and inform you accordingly.'
+de:
+  PLUGIN_HOTJAR:
+    HOTJAR_ID_FIELD_LABEL: 'Hotjar ID'
+    HOTJAR_ID_FIELD_HELP: 'Legt fest, welche Website-Einstellungen Hotjar laden soll und wo es die gesammelten Daten unter Verwendung der hjid (Hotjar-ID) speichern soll.'
+    HOTJAR_SNIPPET_VERSION_FIELD_LABEL: 'Hotjar snippet version'
+    HOTJAR_SNIPPET_VERSION_FIELD_HELP: 'Verfolgt die Version des Tracking Codes, den du mit hjsv (Hotjar Snippet Version) verwendest. Dies wird nur benötigt, wenn Hotjar den Tracking Code aktualisiert und ältere Versionen auslaufen lassen muss. Wenn du weißt, welche Version deine Website enthält, kann das Hotjar-Team dich kontaktieren und dich entsprechend informieren.'
 pl:
   PLUGIN_HOTJAR:
     HOTJAR_ID_FIELD_LABEL: 'Hotjar ID'
